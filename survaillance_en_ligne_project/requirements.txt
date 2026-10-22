@@ -1,0 +1,27 @@
+# FastAPI et serveur
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Authentification et sécurité
+python-jose[cryptography]==3.3.0
+bcrypt==4.1.2
+passlib==1.7.4
+python-dotenv==1.0.1
+
+# Vision et ML - Compatible Python 3.11
+opencv-python==4.9.0.80
+numpy==1.26.3
+scipy==1.12.0
+pillow==10.2.0
+
+# Face Recognition (InsightFace inclut RetinaFace + ArcFace)
+insightface==0.7.3
+onnxruntime==1.17.0
+
+# MediaPipe pour surveillance attention
+mediapipe==0.10.9
+
+# Utilitaires
+pydantic==2.5.3
+typing-extensions==4.9.0
